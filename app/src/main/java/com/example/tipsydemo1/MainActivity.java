@@ -11,5 +11,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    //수정사항 확인
+    //수정사항 확인 이거왜 적용안됌
 }
