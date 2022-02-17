@@ -11,13 +11,20 @@
         android:theme="@style/Theme.TipsyDemo1">
         <activity
             android:name=".LoginMain"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <activity android:name=".LoginResultActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
     </application>
 
 </manifest>
